@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.devstack.quickcart.controller.LoginFormController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane fx:id="container" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devstack.quickcart.controller.LoginFormController">
+   <children>
+      <Label layoutX="255.0" layoutY="44.0" text="Login">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="117.0" text="Enter Email Address">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="emailTxt" layoutX="56.0" layoutY="149.0" prefHeight="25.0" prefWidth="493.0" />
+      <Label layoutX="54.0" layoutY="193.0" text="Enter Password">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="passwordTxt" layoutX="54.0" layoutY="225.0" prefHeight="25.0" prefWidth="493.0" />
+      <CheckBox layoutX="56.0" layoutY="261.0" mnemonicParsing="false" onAction="#showPswd" text="Show Password" />
+      <Label layoutX="443.0" layoutY="262.0" onMouseClicked="#forgotPswd" text="Forgot Password" textFill="#2701ff" underline="true">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="222.0" layoutY="331.0" mnemonicParsing="false" onAction="#loginBtn" prefHeight="30.0" prefWidth="158.0" style="-fx-background-color: #3ae180;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>
