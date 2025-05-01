@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane fx:id="container" prefHeight="682.0" prefWidth="965.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devstack.quickcart.controller.CustomerManagementController">
+<AnchorPane fx:id="container" prefHeight="682.0" prefWidth="965.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devstack.quickcart.controller.CustomerManagementController" >
    <children>
       <Label layoutX="53.0" layoutY="32.0" text="Customer Management">
          <font>
