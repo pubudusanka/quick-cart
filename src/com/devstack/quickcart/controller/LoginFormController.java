@@ -21,20 +21,26 @@ public class LoginFormController {
     }
 
     public void forgotPswd(MouseEvent mouseEvent) {
-        URL resource = getClass().getResource("../view/ForgotPassword.fxml");
+        setUi("ForgotPassword");
+    }
+
+
+    public void loginBtn(ActionEvent actionEvent) {
+        setUi("Dashboard");
+    }
+
+    public void setUi(String location){
+        URL resource = getClass().getResource("../view/" + location + ".fxml");
         Parent parent = null;
         try {
             parent = FXMLLoader.load(resource);
-            Scene scene = new Scene(parent);
-            Stage stage = (Stage) container.getScene().getWindow();
-            stage.setScene(scene);
-            stage.setTitle("Forgot Password");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-    }
-
-    public void loginBtn(ActionEvent actionEvent) {
-
+        Scene scene = new Scene(parent);
+        Stage stage = (Stage) container.getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle(location);
+        stage.show();
     }
 }
