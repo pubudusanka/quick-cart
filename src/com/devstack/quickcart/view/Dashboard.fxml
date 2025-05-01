@@ -99,7 +99,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="userManage" layoutX="727.0" layoutY="120.0" prefHeight="137.0" prefWidth="217.0" style="-fx-background-color: white;">
+      <AnchorPane fx:id="userManage" layoutX="727.0" layoutY="120.0" onMouseClicked="#pressedUserMng" prefHeight="137.0" prefWidth="217.0" style="-fx-background-color: white;">
          <effect>
             <DropShadow offsetX="2.0" offsetY="2.0" />
          </effect>
@@ -119,7 +119,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="orderManage" layoutX="25.0" layoutY="285.0" prefHeight="137.0" prefWidth="217.0" style="-fx-background-color: white;">
+      <AnchorPane fx:id="orderManage" layoutX="25.0" layoutY="285.0" onMouseClicked="#pressedOrderMng" prefHeight="137.0" prefWidth="217.0" style="-fx-background-color: white;">
          <effect>
             <DropShadow offsetX="2.0" offsetY="2.0" />
          </effect>
