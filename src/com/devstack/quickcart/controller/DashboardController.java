@@ -39,4 +39,8 @@ public class DashboardController {
         stage.setTitle(location);
         stage.show();
     }
+
+    public void pressedProductMng(MouseEvent mouseEvent) {
+        setUi("ProductManagement");
+    }
 }
