@@ -47,4 +47,12 @@ public class DashboardController {
     public void pressedStatMng(MouseEvent mouseEvent) {
         setUi("Statistics");
     }
+
+    public void pressedUserMng(MouseEvent mouseEvent) {
+        setUi("UserManagement");
+    }
+
+    public void pressedOrderMng(MouseEvent mouseEvent) {
+        setUi("OrderManagement");
+    }
 }
