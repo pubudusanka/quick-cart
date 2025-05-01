@@ -139,7 +139,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="activityConsole" layoutX="261.0" layoutY="285.0" prefHeight="137.0" prefWidth="217.0" style="-fx-background-color: white;">
+      <AnchorPane fx:id="activityConsole" layoutX="261.0" layoutY="285.0" onMouseClicked="#pressedActivityConsole" prefHeight="137.0" prefWidth="217.0" style="-fx-background-color: white;">
          <effect>
             <DropShadow offsetX="2.0" offsetY="2.0" />
          </effect>
