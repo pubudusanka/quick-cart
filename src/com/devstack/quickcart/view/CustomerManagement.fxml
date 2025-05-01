@@ -13,8 +13,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane fx:id="container" prefHeight="682.0" prefWidth="965.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devstack.quickcart.controller.CustomerManagementController" >
+<AnchorPane fx:id="container" prefHeight="682.0" prefWidth="965.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devstack.quickcart.controller.CustomerManagementController">
    <children>
       <Label layoutX="53.0" layoutY="32.0" text="Customer Management">
          <font>
@@ -51,7 +50,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ImageView>
-      <Button layoutX="792.0" layoutY="93.0" mnemonicParsing="false" onAction="#btnAddCustomer" prefHeight="30.0" prefWidth="158.0" style="-fx-background-color: #3ae180;" text="Add Customer" textFill="WHITE">
+      <Button layoutX="792.0" layoutY="93.0" mnemonicParsing="false" onAction="#btnAddCustomer" prefHeight="30.0" prefWidth="158.0" style="-fx-background-color: #3ae180; -fx-background-radius: 30;" text="Add Customer" textFill="WHITE">
          <font>
             <Font name="Arial Bold" size="14.0" />
          </font>
@@ -100,7 +99,7 @@
          </font>
       </Label>
       <Separator layoutX="14.0" layoutY="313.0" prefHeight="5.0" prefWidth="766.0" />
-      <Button layoutX="792.0" layoutY="303.0" mnemonicParsing="false" onAction="#btnSaveCust" prefHeight="30.0" prefWidth="158.0" style="-fx-background-color: #4361ee;" text="Save Customer" textFill="WHITE">
+      <Button layoutX="792.0" layoutY="303.0" mnemonicParsing="false" onAction="#btnSaveCust" prefHeight="30.0" prefWidth="158.0" style="-fx-background-color: #4361ee; -fx-background-radius: 30;" text="Save Customer" textFill="WHITE">
          <font>
             <Font name="Arial Bold" size="14.0" />
          </font>
