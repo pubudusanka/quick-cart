@@ -41,4 +41,8 @@ public class StatisticManagementController {
 
     public void btnListView(ActionEvent actionEvent) {
     }
+
+    public void openOrderList(MouseEvent mouseEvent) {
+        setUi("OrderList");
+    }
 }
