@@ -59,4 +59,12 @@ public class DashboardController {
     public void pressedActivityConsole(MouseEvent mouseEvent) {
         setUi("ActivityLog");
     }
+
+    public void pressedSettings(MouseEvent mouseEvent) {
+        setUi("Settings");
+    }
+
+    public void pressedPayments(MouseEvent mouseEvent) {
+        setUi("Payments");
+    }
 }
