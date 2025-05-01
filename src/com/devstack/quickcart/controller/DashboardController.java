@@ -55,4 +55,8 @@ public class DashboardController {
     public void pressedOrderMng(MouseEvent mouseEvent) {
         setUi("OrderManagement");
     }
+
+    public void pressedActivityConsole(MouseEvent mouseEvent) {
+        setUi("ActivityLog");
+    }
 }
